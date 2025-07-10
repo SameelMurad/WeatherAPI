@@ -45,10 +45,9 @@ if result:
      save_weather_data(result)
 
 
-
 # Collect data every hour for testing
-# while True:
-#     result = get_weather(os.getenv('API_key'), city_name, country_code)
-#     if result:
-#         save_weather_data(result)
-#     time.sleep(3600)
+while True:
+    result = get_weather(city_name, country_code)
+    if result:
+        save_weather_data(result)
+    time.sleep(3600)
