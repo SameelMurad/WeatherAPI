@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # **Weather Data Logger**
 
 This Python script retrieves real-time weather data for a given city using the [OpenWeatherMap API](https://openweathermap.org/api) and logs it to a CSV file at regular intervals.  
@@ -68,13 +68,4 @@ It’s ideal for **data collection projects**, **climate analysis**, or **person
 ## **Security & Good Practices**
 - Keep your `.env` file out of verstion control. Add `.env` to `.gitignore`.
 - Use a virtual environment (venv, pipenv) for dependency isolation.
-=======
-This project has 3 main steps
 
-Step 1: Get weather data from the OpenWeatherMap API
-
-Step 2: Analyse and process the data to get the relevant information
-
-Step 3: Recommend whether or not someone should wear a coat today
-
->>>>>>> 01a264e1ef52e03935358717baeecc0828d864dc
