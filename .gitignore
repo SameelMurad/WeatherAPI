@@ -1,2 +1,4 @@
 .env
 *.pyc
+WeatherNB.ipynb
+Dashboard.ipynb
